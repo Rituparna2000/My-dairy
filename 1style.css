@@ -1,0 +1,86 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+.logo-wrapper {
+	display: flex;
+	justify-content: space-between;
+	background-color: #452020;
+	width: 100%;
+	height: 3rem;
+}
+.logo-right a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.nav-wrapper a {
+	text-decoration: none;
+	color: #302323;
+	font-size: 20px;
+}
+
+/*container body*/
+.left-body {
+	background-color: white;
+	float: left;
+	width: 70%;
+	height: 530px;
+}
+.left-body h1 {
+	text-align: center;
+	padding-top: 60px;
+}
+.left-body h4 {
+	text-align: center;
+	padding-top: 20px;
+}
+.left-body {
+	text-align: center;
+}
+
+.right-body {
+	background-color: #E0A0A0;
+	width: 30%;
+	height: 530px;
+	float: left;
+}
+
+/*footer part*/
+.footer-wrapper div{
+	background-color: #452020;
+}
+.contact-left {
+	width: 33.3%;
+	height: 33px;
+	text-align: center;
+	float: left;
+	color: white;
+	/*background-color: #452020;*/
+}
+.copyright-middle {
+	width: 33.3%;
+	height: 33px;
+	text-align: center;
+	float: left;
+	color: white;
+	/*background-color: #452020;*/
+}
+.media-right {
+	width: 33.3%;
+	height: 33px;
+	text-align: center;
+	float: left;
+	color: white;
+	/*background-color: #452020;*/
+}
+
+
+/*register form and login*/
